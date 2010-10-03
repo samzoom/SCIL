@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./TestHelper.php" colors="true">
+	<testsuite name="Commonlib Tests">
+		<directory>./library/Scil/</directory>
+	</testsuite>
+	<filter>
+		<whitelist>
+			<directory suffix=".php">../Scil/</directory>
+		</whitelist>
+	</filter>
+</phpunit>
