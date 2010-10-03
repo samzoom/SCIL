@@ -1,0 +1,8 @@
+SCIL
+Service Common Interface Library
+A client library (like an ORM) for connecting to REST services. 
+Extend Scil_Services_Model_Abstract and gain access to methods like save(), delete(), and find() which are transparently rewritten into RESTful HTTP requests. 
+
+Dependencies
+Zend Framework
+Curl

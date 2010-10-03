@@ -1,0 +1,9 @@
+Refactor the following classes so they do not require a specific format (metadata, payload, etc)
+Scil_Services_Response_Payload
+Scil_Services_Response_Payload_Json
+Scil_Services_Parser_Json
+Scil_Services_Gateway_Curl
+
+Docs, Examples
+
+Fix file handling
